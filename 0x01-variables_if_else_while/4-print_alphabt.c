@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry type
  *
- * Return: Always 0 ( success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -10,8 +10,8 @@ int main(void)
 
 	c = 'a';
 	while
-		( c <= 'z') {
-			if (( c != 'q' && c != 'e') && c <= 'z')
+		(c <= 'z') {
+			if ((c != 'q' && c != 'e') && c <= 'z')
 				putchar(c);
 			c++;
 		}
