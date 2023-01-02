@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * *_memse - Entery point
+ * _memset - Entery point
  * @s: first input
  * @c: second input
  * @n: third input
- * Return: char
+ * Return: void
  */
 void *_memset(void *s, int c, size_t n)
 {
