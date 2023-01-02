@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strchr - Entery point
+ * _strchr - Entery point
  * @s: first entery
  * @c: second entery
  * Return: char
@@ -11,7 +11,7 @@ char *_strchr(char *s, char c)
 
 	for (index = 0; s[index] >= '\0'; index++)
 	{
-		if (s[index] == 0)
+		if (s[index] == c)
 			return (s + index);
 	}
 	return ('\0');
