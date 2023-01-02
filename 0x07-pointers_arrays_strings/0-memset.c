@@ -2,7 +2,7 @@
 /**
  * *_memse - Entery point
  * @s: first input
- * @b: second input
+ * @c: second input
  * @n: third input
  * Return: char
  */
