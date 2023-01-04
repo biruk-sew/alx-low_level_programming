@@ -20,15 +20,15 @@ int evaluate_num(int num, int iterator)
  * @n: input
  * Return: int
  */
-int is_prime_number(int n)
+int is_prime_number(int num)
 {
 	int iterator;
 
 	iterator = 2;
 
-	if (n < 2)
+	if (num < 2)
 		return (0);
-	if (n == 2)
+	if (num == 2)
 		return (1);
 	return (evaluate_num(num, iterator));
 }
