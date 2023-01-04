@@ -17,7 +17,7 @@ int evaluate_num(int num, int iterator)
 }
 /**
  * is_prime_number - Entery point
- * @n: input
+ * @num: input
  * Return: int
  */
 int is_prime_number(int num)
