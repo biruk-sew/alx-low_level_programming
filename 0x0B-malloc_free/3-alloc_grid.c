@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _alloc_grid - Entery point
+ * alloc_grid - Entery point
  * @width: input
  * @height: input
  * Return: int
  */
-int _alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **grid;
 	int i, j;
