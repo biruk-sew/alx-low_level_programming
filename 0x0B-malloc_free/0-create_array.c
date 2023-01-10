@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * creat_array - Entery point
+ * create_array - Entery point
  * @size: input
  * @c: input
  * Return: char
  */
-char *creat_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *buffer;
 	unsigned int position;
