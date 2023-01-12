@@ -25,7 +25,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (0);
 	}
 	relloc = malloc(new_size);
-	if (rlloc == NULL)
+	if (relloc == NULL)
 		return (0);
 	for (i = 0; i < (old_size || i < new_size); i++)
 		*(relloc + i) = clone[i];
