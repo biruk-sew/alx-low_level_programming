@@ -1,4 +1,4 @@
-#inclukde "main.h"
+#include "main.h"
 /**
  * malloc_checked - Entery point
  * @b: input
